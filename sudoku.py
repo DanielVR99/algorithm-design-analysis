@@ -70,10 +70,10 @@ def solve(matrix): #recursiva
     return False #regresamos false para que se intente de nuevo con otro numero, la llamada anterior debe retroceder
 
 
-resuelto = solve(matrix1)
+resuelto = solve(matrix2)
 print(resuelto)
 
-for fila in matrix1:
+for fila in matrix2:
     print(fila)
 
 
